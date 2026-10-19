@@ -1,0 +1,26 @@
+# Fetched by native/tools/bootstrap.py (game code is never committed)
+/src
+/extern
+
+# Build output
+build/
+dist/
+compile_commands.json
+.ninja_*
+
+# Disc images and game files
+*.iso
+*.gcm
+*.ciso
+*.rvz
+*.dol
+*.rel
+
+# Editors / caches
+.idea/
+.vs/
+.vscode/
+__pycache__/
+.cache/
+.DS_Store
+native/portability-findings.json
